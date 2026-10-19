@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop pagination</title>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>    
+    <link rel="stylesheet" href="styles/main.css" type="text/css"/>    
+</head>
+<body>
+
+    <div class="container">
+        <h3>Список А</h3>
+        <div class="txt-box">
+            <input id="filter-1" type="text" class="txt-input"/>
+            <button id="filter-but-1" class="txt-btn">F</button>
+        </div>
+        <div class="txt-box">
+            <input id="input-1" type="text" class="txt-input"/>
+            <button id="input-but-1" class="txt-btn">A</button>
+        </div>
+        <div id="list-1" class="list">
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Список Б</h3>
+        <div class="txt-box">
+            <input id="filter-2" type="text" class="txt-input"/>
+            <button id="filter-but-2" class="txt-btn">F</button>
+        </div>
+        
+        <div id="list-2" class="list">
+        </div>
+    </div>
+
+    <script src="scripts/index.js" type="text/javascript"></script>
+</body>
+</html>
